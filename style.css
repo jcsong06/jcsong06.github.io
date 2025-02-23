@@ -44,6 +44,15 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.main-nav {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Ensures the nav stays opaque */
+  padding: 10px;
+  z-index: 1000; /* Keeps the nav above other content */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+}
+
 /* Main Content Layout */
 main {
   display: flex;
